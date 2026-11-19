@@ -1,11 +1,8 @@
-# R 4.5.2 | 在 RStudio 打开本文件并点击 Source。
-# 23 篇研究的计数已写入脚本。PNG 和 PDF 保存到 getwd() 返回的目录。
 library(grid)
 
 output_dir <- getwd()
 output_name <- file.path(output_dir, "Fig2_AMEGA_23_studies")
 
-# 行对应 A1–A8，列对应 O1–O8。计数来自纳入的 23 篇研究。
 counts <- matrix(c(
   2,  5,  1, 1, 1, 0, 4, 2,
   3,  7,  4, 4, 1, 0, 5, 4,
